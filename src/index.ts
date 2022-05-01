@@ -10,7 +10,7 @@ const port = process.env.PORT || 5009;
 
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Testing...');
+    res.send('Happy coding!');
 });
 
 // app.get('/videos', (req: Request, res: Response) => {
